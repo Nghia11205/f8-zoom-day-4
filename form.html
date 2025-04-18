@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register</title>
+        <link rel="stylesheet" href="./css/styles.css" />
+    </head>
+    <body>
+        <div class="form">
+            <div class="form-register">
+                <h1>Registration Form</h1>
+                <form action="" autocomplete="off">
+                    <div class="form-group">
+                        <label>
+                            <span class="form-label">Display Name: </span>
+                            <input
+                                class="form-input"
+                                type="text"
+                                name="name"
+                                placeholder="Your name"
+                                required
+                                spellcheck="false"
+                            />
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <span class="form-label">Email: </span>
+                            <input
+                                class="form-input"
+                                type="email"
+                                name="email"
+                                placeholder="Your email"
+                                required
+                                spellcheck="false"
+                            />
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <span class="form-label">Phone Number: </span>
+                            <input
+                                class="form-input"
+                                type="number"
+                                name="phone-number"
+                                placeholder="Your phone number"
+                                required
+                                spellcheck="false"
+                            />
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <span class="form-label">Password: </span>
+                            <input
+                                class="form-input"
+                                type="password"
+                                name="password"
+                                maxlength="16"
+                                minlength="8"
+                                placeholder="8+ characters, a mix of letters, numbers & symbols."
+                                required
+                                spellcheck="false"
+                            />
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <span class="form-label">Confirm Password: </span>
+                            <input
+                                class="form-input"
+                                type="password"
+                                name="Confirm Password"
+                                maxlength="16"
+                                minlength="8"
+                                placeholder="Confirm your password."
+                                required
+                                spellcheck="false"
+                            />
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Gender:</label>
+                        <div class="form-input-radio">
+                            <label class="form-input-radio-label"
+                                ><input
+                                    type="radio"
+                                    name="gender"
+                                    spellcheck="false"
+                                /><span>Nam</span>
+                            </label>
+                            <label class="form-input-radio-label"
+                                ><input
+                                    type="radio"
+                                    name="gender"
+                                    spellcheck="false"
+                                /><span>Nữ</span>
+                            </label>
+                            <label class="form-input-radio-label"
+                                ><input
+                                    type="radio"
+                                    name="gender"
+                                    spellcheck="false"
+                                /><span>Khác</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <span class="form-label">Date of Birth:</span>
+                            <input
+                                class="form-input"
+                                type="date"
+                                name="date-of-birth"
+                                placeholder="Your date of birth"
+                                required
+                                spellcheck="false"
+                            />
+                        </label>
+                    </div>
+                    <label class="form-label"
+                        >Profile Picture (Avatar):
+                        <img
+                            class="form-avatar"
+                            src="./img-avatar-placeholder.png"
+                            alt=""
+                        />
+                        <input type="file" name="avatar" hidden />
+                    </label>
+                    <div class="form-group">
+                        <label class="form-label">
+                            Communication Preferences:
+                        </label>
+                        <div class="form-input-checkbox">
+                            <label class="form-input-checkbox-label">
+                                <input type="checkbox" name="communication" />
+                                Subscribe to Newsletter
+                            </label>
+                            <label class="form-input-checkbox-label">
+                                <input type="checkbox" name="communication" />
+                                Receive Promotional Emails
+                            </label>
+                            <label class="form-input-checkbox-label">
+                                <input type="checkbox" name="communication" />
+                                Get Product Updates
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn">Create Account</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

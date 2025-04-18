@@ -112,17 +112,18 @@ h2 {
     margin-bottom: 20px;
     margin-right: 80px;
 }
-.content {
+.list-menu {
     width: 100%;
     height: 100%;
     display: block;
     background-color: #3e5cca;
-    margin: 0 60px;
+
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
 }
 .home {
+    margin-left: 140px;
     display: inline-block;
     width: 114px;
     height: 100%;
@@ -132,45 +133,18 @@ h2 {
     line-height: 80px;
     color: #000;
 }
-.menu-item1,
-.menu-item2,
-.menu-item3,
-.menu-item4,
-.menu-item5,
-.menu-item6 {
+
+.menu-item {
     display: inline-block;
+    padding: 30px 24px;
     text-decoration: none;
-    height: 100%;
-    display: inline-block;
-    color: #fdfdfd;
-    text-align: center;
-    line-height: 80px;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 500;
+    color: #fff;
 }
-.menu-item1 {
-    width: 190px;
-}
-.menu-item2 {
-    width: 100px;
-}
-.menu-item3 {
-    width: 160px;
-}
-.menu-item4 {
-    width: 100px;
-}
-.menu-item5 {
-    width: 190px;
-}
-.more {
-    display: inline-block;
-    width: 120px;
-    height: 100%;
+.menu-item:hover {
     background-color: #fdfdfd;
-    text-decoration: none;
-    text-align: center;
-    line-height: 80px;
     color: #000;
-}
-.menu-item6 {
-    width: 170px;
+    transition: 0.3s;
 }
